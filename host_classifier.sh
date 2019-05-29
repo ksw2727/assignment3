@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#assignment #3 ...rename to host_classifier.sh
+#assignment #3
 #This script should accept one or more filenames as arguments
 #The files will be stored in my home directory
 # /home/ipa/corp.encore.tech/kevin.whelan/files/assignment3/*
