@@ -33,7 +33,8 @@ while [ "$1" != "" ]
 
  #prints the current filename excluding the path.  I'm sure there's a better way.
   echo =========================
-  filename=$(echo $1 | cut --delimiter "/" --fields 8)
+# filename=$(echo $1 | cut --delimiter "/" --fields 8)
+  filename=$(echo $1)
   echo "File =" $filename
 #  echo "Containing servers named:"
 #  echo =========================
